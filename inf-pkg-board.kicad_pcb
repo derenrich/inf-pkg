@@ -1320,7 +1320,7 @@
 			)
 		)
 		(property "Value" "W25Q128JVS"
-			(at 0 3.56 0)
+			(at -1.384 -5.209 0)
 			(layer "F.Fab")
 			(uuid "422cf7d8-ddca-4581-9fea-a4288896323c")
 			(effects
@@ -3168,7 +3168,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.68 0)
+			(at -3.114 0.508 0)
 			(layer "F.Fab")
 			(uuid "0524fae1-3a8a-4522-8fc9-0a903a9b3ebe")
 			(effects
@@ -3807,7 +3807,7 @@
 			)
 		)
 		(property "Value" "RP2040"
-			(at 0 4.82 0)
+			(at -7.004 4.0855 0)
 			(layer "F.Fab")
 			(uuid "64392865-65ab-448d-ae47-4f16f71e3396")
 			(effects
@@ -4961,6 +4961,7 @@
 		(property "Reference" "H2"
 			(at 4.14 -0.34 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "48c71a32-9a1c-4c04-a2c9-16eec6fcc9db")
 			(effects
 				(font
@@ -4972,6 +4973,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.7 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e3e0eb1c-64b5-4c95-81e1-0871efb47579")
 			(effects
 				(font
@@ -5286,6 +5288,7 @@
 		(property "Reference" "H3"
 			(at 0 -3.7 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "52065967-316d-48ff-a967-f4bed4df2994")
 			(effects
 				(font
@@ -5297,6 +5300,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.7 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "227f9dd0-75d7-479f-99b0-09080b0c70db")
 			(effects
 				(font
@@ -6038,6 +6042,7 @@
 		(property "Reference" "H4"
 			(at 0 -3.7 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "88efdd3a-fcd3-484e-88bd-cfb068e22375")
 			(effects
 				(font
@@ -6049,6 +6054,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.7 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0aab5fb8-a06a-4e4b-a555-3fa02b3c36a6")
 			(effects
 				(font
@@ -6160,7 +6166,7 @@
 			)
 		)
 		(property "Value" "ABLS-12.000MHZ-B4-T"
-			(at 0 3.55 0)
+			(at -5.159 5.518 0)
 			(layer "F.Fab")
 			(uuid "a6dc020a-abef-41c4-9735-4ef9fb9bfd9e")
 			(effects
@@ -6434,7 +6440,7 @@
 			)
 		)
 		(property "Value" "120nH"
-			(at 0 1.05 0)
+			(at 1.687 -1.524 0)
 			(layer "F.Fab")
 			(uuid "00d36001-f086-460b-9e3b-ee5c31635e37")
 			(effects
@@ -6619,6 +6625,7 @@
 		(property "Reference" "J5"
 			(at 0.25 -1 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "54295045-7529-4ad6-90f8-80d57e2dfbad")
 			(effects
 				(font
@@ -6630,6 +6637,7 @@
 		(property "Value" "USB_C_Receptacle_USB2.0_14P"
 			(at 0 5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c4322549-3837-4d13-9139-f4d475e7a7c8")
 			(effects
 				(font
@@ -6811,17 +6819,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "ea7baff8-5bf7-4ca7-bfe1-307bdc244e75")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "66ef5eb5-a348-41d3-966e-355899095c10")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at -2.89 -2.605 90)
@@ -7062,6 +7059,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.61 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "251ab0d1-2148-4852-8b21-8465f33c4289")
 			(effects
 				(font
@@ -7314,6 +7312,7 @@
 		(property "Value" "Jumper_2_Small_Bridged"
 			(at 0 1.9 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9958eeb8-b205-4f10-978e-7641ec25af99")
 			(effects
 				(font
@@ -7496,8 +7495,9 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 0 1.17 90)
+			(at 3.3 -0.508 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "43d42f26-5863-40c6-bb05-8cdb2c813ff4")
 			(effects
 				(font
@@ -7710,6 +7710,7 @@
 		(property "Value" "Jumper_2_Small_Bridged"
 			(at 0 1.9 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b9635083-b22c-461b-920d-83e64342535d")
 			(effects
 				(font
@@ -7892,7 +7893,7 @@
 			)
 		)
 		(property "Value" "RV-3028-C7"
-			(at 0 2.63 0)
+			(at 0.142 -4.492 0)
 			(layer "F.Fab")
 			(uuid "a6026e62-cf69-4007-bb22-ea791cecc56f")
 			(effects
@@ -8110,6 +8111,7 @@
 		(property "Value" "Conn_01x01_Pin"
 			(at 0 1.61 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "46a5b23f-d36f-467d-96f5-d598d828a728")
 			(effects
 				(font
@@ -8361,6 +8363,7 @@
 		(property "Value" "TS-1088-AR02016"
 			(at 4 0 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1c7c1f6e-9c19-49d2-a136-5954ed40c2ed")
 			(effects
 				(font
@@ -8603,6 +8606,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e075bd72-d99c-4374-90f1-a2d15230412a")
 			(effects
 				(font
@@ -9110,7 +9114,7 @@
 		(descr "20-Lead Plastic Quad Flat, No Lead Package - 3x3 mm Body [QFN] with corner pads; see figure 8.2 of https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf")
 		(tags "QFN 0.5")
 		(property "Reference" "U5"
-			(at 2.814 -3.798 90)
+			(at 1.504 -3.282 180)
 			(layer "F.SilkS")
 			(uuid "17b83806-1f1c-4fda-b379-8213f48bf783")
 			(effects
@@ -9121,7 +9125,7 @@
 			)
 		)
 		(property "Value" "Si4705"
-			(at 0 3 0)
+			(at 3.536 -1.25 270)
 			(layer "F.Fab")
 			(uuid "c563f4fb-557f-42e3-b287-c41cf768140e")
 			(effects
@@ -9990,7 +9994,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 0 2.4 0)
+			(at -1.0945 3.556 0)
 			(layer "F.Fab")
 			(uuid "13468cbe-5812-43e1-ab02-ea1c10233d13")
 			(effects
@@ -10734,6 +10738,7 @@
 		(property "Value" "TS-1088-AR02016"
 			(at 4 0 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "17d647ce-2e97-4be7-a87d-2d44623ce0f3")
 			(effects
 				(font
@@ -10974,7 +10979,7 @@
 			)
 		)
 		(property "Value" "ME6211C33M5"
-			(at 0 2.4 0)
+			(at -0.3755 3.236 0)
 			(layer "F.Fab")
 			(uuid "b3ed919a-cfc0-4f93-8318-19fa47c10e0d")
 			(effects
@@ -11327,7 +11332,7 @@
 			)
 		)
 		(property "Value" "ePaper Hat"
-			(at 0 20.16 90)
+			(at 2.54 9.906 180)
 			(layer "F.Fab")
 			(uuid "3876a2f9-9eda-453c-9828-73f82f5988c2")
 			(effects
@@ -11619,6 +11624,7 @@
 		(property "Value" "Conn_01x01_Pin"
 			(at 0 1.61 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3ee7d770-a922-4493-9195-e1bfab058f7f")
 			(effects
 				(font
@@ -12700,6 +12706,7 @@
 		(property "Value" "TS-1088-AR02016"
 			(at 4 0 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "24ebf0f5-cec6-4aed-9ae3-b515a77c8174")
 			(effects
 				(font
@@ -12929,7 +12936,7 @@
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U6"
-			(at 0 -2.4 90)
+			(at -2.4185 1.844 180)
 			(layer "F.SilkS")
 			(uuid "4f5a097c-ef2d-4364-b622-ea915a4345ba")
 			(effects
@@ -13305,8 +13312,9 @@
 			)
 		)
 		(property "Value" "Jumper_2_Small_Open"
-			(at 0 4.92 90)
+			(at -4.318 1.778 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "acc07814-9028-47e5-a0cc-4396c5d146b7")
 			(effects
 				(font
@@ -13464,17 +13472,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "edbbdd2d-264e-405d-85df-60510c8ebc11")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 1.27 0)
-			(layer "F.Fab")
-			(uuid "05211ba9-3149-41a6-aa39-8f6612ee5719")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 90)
@@ -13944,6 +13941,7 @@
 		(property "Reference" "H1"
 			(at 3.556 -2.54 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ea22c938-4794-4ec7-818c-193f17c052b3")
 			(effects
 				(font
@@ -13955,6 +13953,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.65 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "bdaa4718-9539-4a2b-9fe2-20aa4f304cde")
 			(effects
 				(font
@@ -14068,6 +14067,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "86f7946c-3bd5-453d-9e49-d215b93a81d5")
 			(effects
 				(font
@@ -14278,7 +14278,7 @@
 			)
 		)
 		(property "Value" "stemmaQT"
-			(at 3 7.45 90)
+			(at 9.398 2.286 180)
 			(layer "F.Fab")
 			(uuid "59693677-a18a-4890-b064-f740c43e259d")
 			(effects
