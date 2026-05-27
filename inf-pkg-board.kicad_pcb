@@ -19971,7 +19971,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "neither snow nor rain"
+	(gr_text "neither rain nor snow"
 		(at 130 120.4 270)
 		(layer "B.SilkS")
 		(uuid "353170ff-a3b2-474c-9c2f-27eeb619018a")
